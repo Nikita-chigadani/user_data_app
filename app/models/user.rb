@@ -4,4 +4,6 @@ class User
   field :firstName, type: String
   field :lastName, type: String
   field :email, type: String
+  
+  # index firstName: 'text'
 end

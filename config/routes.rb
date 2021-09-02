@@ -6,6 +6,6 @@ Rails.application.routes.draw do
     get 'show', action: :showUser, controller: :users
     put 'update', action: :updateUser, controller: :users
     delete 'delete', action: :deleteUser, controller: :users
-    get 'search/:input', action: :search, controller: :users
+    get 'search', action: :search, controller: :users
   end
 end
